@@ -1,0 +1,29 @@
+{
+  "name": "react-google-login-lite",
+  "version": "1.0.0",
+  "description": "A small library for logging in to google customized by me, containing some simple functions for some of my small projects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "clear": "rm -rf dist",
+    "copy": "cp -r src/public dist",
+    "build": "npm run clear & tsc & npm run copy"
+  },
+  "keywords": [
+    "react", "react-google-login", "react-login", "react-google", "google-login"
+  ],
+  "author": "DevAT-VietNam",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.4",
+    "react": "^17.0.2",
+    "typescript": "^4.2.4"
+  },
+  "homepage": "https://github.com/devat-youtuber/react-google-login-lite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devat-youtuber/react-google-login-lite.git"
+  }
+}
